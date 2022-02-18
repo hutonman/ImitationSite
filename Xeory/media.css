@@ -1,0 +1,160 @@
+@media (min-width: 768px) {
+  #top-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #nav {
+    width:15%;
+    font-size: 40px;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  #pop-container {
+    display: flex;
+  }
+
+  .pop-content {
+    margin: 5px;
+  }
+
+  #recent-container {
+    display: flex;
+  }
+
+  .recent-content {
+    margin: 5px;
+  }
+
+  .button-box {
+    width: 30%;
+    margin: 0 auto;
+
+  }
+
+  .cmp-content {
+    display: flex;
+  }
+ .cmp-content h5 {
+  margin-top: 30px;
+  margin-right: 100px;
+  font-size: 16px;
+  display: inline-block;
+  width: 100px;
+  }
+  .cmp-content p {
+  margin-top: 30px;
+  font-size: 16px;
+  }
+
+  #foot-wrapper {
+    display: flex;
+  }
+
+  #blog-content {
+    margin-right: 100px;
+  }
+
+ 
+}
+
+@media (min-width: 992px) {
+  #top-content h3 {
+    font-size: 50px;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  .nav-content {
+    display: block;
+  }
+
+  #top-list1, #top-list2 {
+    display: block;
+  }
+
+  #top-list2 {
+    display: flex;
+  }
+
+  #top-list-content1,  #top-list-content2 {
+    padding: 30px 10px;
+    background-color: #47b39d;
+  }
+
+  #top-list1 {
+    margin-right: 30px;
+  }
+
+  #top-list2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .content-ex {
+    display: block;
+  }
+
+  .triangle {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 60px 0 60px;
+    border-color: #3b4552 transparent transparent transparent;
+  }
+
+  .feature .pattern1 {
+    display: none;
+  }
+  .pattern2 {
+    display: flex;
+  }
+  .pattern2 .feature-title {
+    width: 140%;
+    margin: 0 40px;
+    text-align: left;
+  }
+
+  .feature {
+    position: relative;
+  }
+
+  .feature .triangle {
+    position: absolute;
+    left: calc(50% - 60px);
+  }
+
+  .pattern2 .num-label {
+    margin-left: 0px;
+    width:35px;
+    background-color: #47b39d;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .feature:nth-child(even) .pattern2 {
+    flex-direction: row-reverse;  
+  }
+
+  .service-contents {
+    display: flex;
+    justify-content: center;
+  }
+
+  .service-content {
+    width: 100%;
+  }
+
+  .service-content h2 {
+    margin-top: 100px;
+  }
+
+
+}

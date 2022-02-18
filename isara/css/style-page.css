@@ -1,0 +1,28 @@
+.page-visual {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-visual img {
+  width: 100%;
+}
+
+.page-title {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 20%;
+}
+
+.page-title h2 {
+  font-size: 50px;
+}
+
+.pf-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}

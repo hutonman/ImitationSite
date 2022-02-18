@@ -1,0 +1,113 @@
+@media screen and (max-width: 1166px) {
+  header div#head-container nav ul li {
+    font-size: 8px;
+  }
+  section#top .wrap .top-text h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  main section#container {
+    display: block;
+  }
+  main section#container div#main-contents {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  main section#container div#sidebar {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main section#container div#sidebar div#theme-content {
+    width: 50%;
+    margin: 0 auto;
+  }
+  main section#container div#sidebar div#theme-content img {
+    width: 100%;
+  }
+  main section#container div#sidebar #side-search #search-content {
+    width: 60%;
+    margin: 0 auto;
+  }
+  main section#container div#sidebar #layout .content-box .content .img-box {
+    width: 20%;
+  }
+  main section#container div#sidebar #layout .content-box .content .img-box img {
+    width: 100%;
+  }
+  main section#container div#sidebar #layout .content-box .content .text .tag {
+    font-size: 12px;
+    padding: 6px;
+    font-weight: bold;
+  }
+  main section#container div#sidebar #layout .content-box .content .text h5 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  header div#head-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header div#head-container div#menu {
+    display: block;
+    text-align: center;
+    font-size: 8px;
+  }
+  header div#head-container div#menu span {
+    margin: 4px 12px 0 12px;
+    font-size: 26px;
+  }
+  header div#head-container nav {
+    display: none;
+  }
+  header div#head-container2 {
+    display: block;
+    background-color: #1bb4d3;
+    color: white;
+    padding: 4px;
+    overflow-x: scroll;
+  }
+  header div#head-container2 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    min-width: 740px;
+  }
+  header div#head-container2 ul li {
+    padding: 4px 14px;
+    margin: 0 6px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #1bbedf;
+    border-radius: 16px;
+  }
+  #leadPurchase {
+    padding-top: 90px;
+  }
+  main div#main-nav {
+    display: block;
+  }
+  main div#main-nav div.content-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 730px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  main div#main-nav div.content-box div.content {
+    margin: 0 4px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=sp.css.map */

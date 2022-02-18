@@ -1,0 +1,311 @@
+#top {
+  width:100%;
+  height:1000px;
+  background-color: #42a994;
+  color: white;
+}
+
+#top-wrapper {
+  width:100%;
+  background-color: #47b39d;
+}
+
+#top-title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+#nav {
+  width:95%;
+  background-color: #3b4552;
+  border:none;
+  display: block;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+
+#top-content {
+  text-align: center;
+  padding-top: 300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#top-content h3 {
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+#top-content p {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.title {
+  text-align: center;
+  padding: 70px;
+}
+
+#pops {
+  margin: 0 auto;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+.img-box img {
+  width: 100%;
+}
+
+.number {
+  top:0;
+  left:0;
+  background-color: #e2c772;
+  width:50px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity:0.8;
+}
+
+.category {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  background-color: #47b39d;
+  border-radius: 2px;
+  color:white;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+#pops .container a , #recent .container a{
+  text-decoration: none;
+  color: black;
+}
+
+.pop-content {
+  margin-bottom: 30px;
+}
+
+.title-wrapper {
+  background-color: #3b4552;
+  width:100%;
+  padding:20px;
+  text-align: center;
+  color: white;
+}
+
+.title-wrapper div i {
+  font-size: 30px;
+}
+.title-wrapper h2 {
+  font-weight: normal;
+}
+.title-wrapper p {
+  margin: 0;
+}
+
+.num-label {
+    margin: 0 auto;
+    text-align: center;
+    width:35px;
+    background-color: #47b39d;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.feature-title {
+  color: #47b39d;
+  text-align: center;
+}
+
+.feature-content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.feature-content img {
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.feature button  {
+  width: 100%;
+  background-color: #ff7007;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.service-content {
+  text-align: center;
+  color: #6cc2b1;
+}
+
+.service-content h2 {
+  margin-top: 200px;
+}
+
+
+.service-content button {
+  width: 50%;
+  background-color: #6cc2b1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.service-content button:hover {
+  opacity:0.8;
+}
+
+.map iframe {
+  width: 100%;
+  height: 400px;
+  padding-bottom: 100px;
+}
+
+.company-data {
+  margin: 0 auto;
+  width:95%;
+  border-top: #6cc2b1 solid 2px;
+}
+
+.company-data h5 {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info-box {
+  color: white;
+  background-color: #6cc2b1;
+  text-align: center;
+}
+
+.info-box input {
+  width: 90%;
+  border:none;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.info-box p {
+  margin: 0;
+  padding-top: 30px;
+}
+
+.info-box textarea {
+  width: 90%;
+  height: 10em;
+  border:none;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.info-box button {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  border:none;
+  border-radius: 5px;
+  background-color: #131d2a;
+  color: white;
+}
+
+.line {
+  height: 10px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #3b4552;
+}
+
+footer {
+  background-color: #031731;
+  color: white;
+}
+
+.foot-content {
+  width:95%;
+  margin: 0 auto;
+
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer h3 {
+  font-weight: normal;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  border-bottom: #3b4552 solid 1px;
+  margin-bottom: 30px;
+}
+
+footer li {
+  margin: 20px 0;
+}
+.foot-li a {
+  text-decoration: none;
+  color: white;
+}
+
+#copy {
+  background-color: #010a17;
+  text-align: center;
+  padding: 30px;
+  font-size: 12px;
+}
+
+.nav-bar {
+  background-color: #3b4552;
+}
+
+.nav-content {
+  padding: 30px 20px;
+}
+
+.nav-content h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: white;
+}
+
+#top-list1, #top-list2 {
+  display: none;
+}
+
+.content-ex {
+  display: none;
+}
+
+.pattern2 {
+  display: none;
+}

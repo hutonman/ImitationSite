@@ -1,0 +1,25 @@
+@media (max-width: 740px) {
+  #top-wrapper-text {
+    font-size: 30px;
+    left: 0%;
+  }
+
+ #hosting, #steps {
+   padding:20px;
+ }
+
+ #img2 {
+   width:100%;
+ }
+
+
+
+}
+
+
+@media (min-width: 740px) and (max-width: 1120px) {
+  #hosting {
+    width: 540px;
+  }
+}
+ 

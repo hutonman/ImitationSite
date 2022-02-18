@@ -1,0 +1,140 @@
+@media screen and (max-width: 1166px) {
+  header {
+    div#head-container {
+      nav {
+        ul {
+          li {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+  section#top {
+    .wrap {
+      .top-text {
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  main {
+    section#container {
+      display: block;
+      div#main-contents {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+      }
+      div#sidebar {
+        width: 90%;
+        margin: 0 auto;
+        div#theme {
+          &-content {
+            width: 50%;
+            margin: 0 auto;
+            img {
+              width: 100%;
+            }
+          }
+        }
+        #side-search {
+          #search-content {
+            width: 60%;
+            margin: 0 auto;
+          }
+        }
+        #layout {
+          .content-box {
+            .content {
+              .img-box {
+                width: 20%;
+                img {
+                  width: 100%;
+                }
+              }
+              .text {
+                .tag {
+                  font-size: 12px;
+                  padding: 6px;
+                  font-weight: bold;
+                }
+                h5 {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  header{
+    div#head-container {
+      display: flex;
+      justify-content: space-between;
+
+      div#menu {
+        display: block;
+        text-align: center;
+        font-size: 8px;
+        span {
+          margin: 4px 12px 0 12px;
+          font-size: 26px;
+        }
+      }
+      nav {
+        display: none;
+      }
+    }
+    div#head-container2 {
+      display: block;
+      background-color: #1bb4d3;
+      color: white;
+      padding: 4px;
+      overflow-x: scroll;
+      ul {
+        display: flex;
+        list-style: none;
+        min-width: 740px;
+        li {
+          padding: 4px 14px;
+          margin: 0 6px;
+          font-size: 12px;
+          font-weight: bold;
+          background-color: #1bbedf;
+          border-radius: 16px;
+        }
+      }
+    }
+  }
+
+  #leadPurchase {
+    padding-top: 90px;
+  }
+
+  main {
+    div#main-nav {
+      display: block;
+      div.content-box {
+        display: flex;
+        width: 100%;
+        max-width: 730px;
+        justify-content: space-around;
+        div.content {
+          margin: 0 4px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  
+
+}
